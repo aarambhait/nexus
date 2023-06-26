@@ -115,9 +115,9 @@ a {
   color: #fff;
   border: none;
   border-radius: 2px;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
 
 .main-content-link-1 {
