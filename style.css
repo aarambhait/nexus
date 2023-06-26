@@ -7,14 +7,16 @@
   /* font-family: "Impact"; */
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: "CENTURION", sans-serif; */
-  
+
 }
-body{
+
+body {
   overflow-y: hidden;
 }
-a{
+
+a {
   text-decoration: none;
-  
+
 }
 
 /* width */
@@ -65,18 +67,19 @@ a{
 /* For mobile view */
 @media (max-width: 768px) {
   .video-container {
-    padding-bottom: 75%; /* 4:3 aspect ratio */
+    padding-bottom: 75%;
+    /* 4:3 aspect ratio */
     height: 100%;
   }
 
-  .video-container video{
+  .video-container video {
     height: 100vh;
   }
 }
 
 
 
-.main-content-text{
+.main-content-text {
   position: absolute;
   bottom: -5%;
   left: 50%;
@@ -90,20 +93,20 @@ a{
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  
+
 }
 
 .main-content-title p {
   font-size: 6rem;
   font-weight: 600;
   letter-spacing: 4px;
- 
+
 }
 
 .main-content-span {
   text-align: center;
   width: 100%;
-  
+
 }
 
 .main-content-span span {
@@ -112,25 +115,12 @@ a{
   color: #fff;
   border: none;
   border-radius: 2px;
- 
- 
-  letter-spacing: 5px;
-  
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
 }
 
-
-
-
-/* .main-content-link{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 1rem;
-} */
-
-.main-content-link-1{
+.main-content-link-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,12 +128,10 @@ a{
   padding: 0.2rem 0;
   margin-top: 1rem;
   letter-spacing: 3.25px;
-  
 }
 
-
-.main-content-link-1-insta{
-  margin:0 0.49rem;
+.main-content-link-1-insta {
+  margin: 0 0.49rem;
   width: 28px;
   display: flex;
   justify-content: center;
@@ -151,7 +139,7 @@ a{
   text-align: center;
 }
 
-.main-content-link-1-fb{
+.main-content-link-1-fb {
   margin: 0 0.49rem;
   width: 30px;
   display: flex;
@@ -159,7 +147,8 @@ a{
   align-items: center;
   text-align: center;
 }
-.main-content-link-1-email{
+
+.main-content-link-1-email {
   margin: 0 0.49rem;
   width: 32px;
   display: flex;
@@ -170,13 +159,13 @@ a{
 
 .main-content-link-1-fb img,
 .main-content-link-1-insta img,
-.main-content-link-1-email img{
+.main-content-link-1-email img {
   width: 100%;
 }
 
 .main-content-link-1-fb img:hover,
 .main-content-link-1-insta img:hover,
-.main-content-link-1-email img:hover{
+.main-content-link-1-email img:hover {
   opacity: 0.5;
   cursor: pointer;
 }
@@ -185,11 +174,12 @@ a{
   .main-content-title p {
     font-size: 3rem;
   }
+
   .main-content-span span {
     font-size: 0.8rem;
   }
 
-  .main-content-text{
+  .main-content-text {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -199,9 +189,9 @@ a{
 
   .main-content-span span {
 
-   
+
     letter-spacing: 2.5px;
-    
+
   }
 }
 
@@ -212,7 +202,3 @@ a{
 
 
 }
-
-
-
-
